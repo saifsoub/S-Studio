@@ -654,7 +654,7 @@ export default function App() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ 
           chat_id: settings.telegramChatId, 
-          text: "✅ *S/ Studio*: Your Telegram integration is fully operational!", 
+          text: "✅ *Studio*: Your Telegram integration is fully operational!", 
           parse_mode: "Markdown" 
         })
       });
@@ -857,7 +857,7 @@ GLASS PIPELINE SCHEMA (Process/Tech Flow):
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ 
           chat_id: settings.telegramChatId, 
-          text: `🎨 *S/ Studio Draft*\n\n*Topic:* ${prompt}\n\n---\n${(editedPost || "").slice(0, 800)}...\n\n✅ Reply /confirm to approve`, 
+          text: `🎨 *Studio Draft*\n\n*Topic:* ${prompt}\n\n---\n${(editedPost || "").slice(0, 800)}...\n\n✅ Reply /confirm to approve`, 
           parse_mode: "Markdown" 
         })
       });
